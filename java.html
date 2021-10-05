@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Webpage</title>
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+	<style>
+		.sec{
+			border: 2px solid green;
+			display: grid;
+			grid-template-columns: repeat(auto-fit, minmax(400px,1fr));
+			grid-gap: 10px;
+		}
+		img{
+			width: 100%;
+			cursor: pointer;
+			border-radius: 30px;
+		}
+
+		h1{
+			text-align: center;
+			text-transform: uppercase;
+			font-weight: bold;
+			font-size: 50px;
+			color: red;
+			margin-top: 5%;
+		}
+		p{
+			text-align: center;
+			font-weight: bold;
+			color: blue;
+			font-size: 23px;
+
+		}
+      
+	</style>
+</head>
+<body>
+
+   
+   	<h1>You Listen diffrents Surah</h1>
+   	<p>If you click the img then you listen the talawat</p>
+   <section class="sec">
+  <img id="player" onclick="action();" src="https://i1.wp.com/islamhashtag.com/wp-content/uploads/2019/10/Secrets-of-Surah-Fatiha.png?fit=273%2C184&ssl=1"/ data-aos="fade-down">
+  <audio id="audio" src="https://download.quranicaudio.com/quran/abdullaah_3awwaad_al-juhaynee/001.mp3" loop autoloop></audio>
+
+   
+
+
+
+   <img id="player" onclick="action1();" src="https://i.ytimg.com/vi/7qyl-zr-4ko/maxresdefault.jpg" data-aos="fade-down">
+  <audio id="audio1" src="https://download.quranicaudio.com/quran/abdullaah_3awwaad_al-juhaynee/114.mp3" loop autoloop></audio>
+
+
+   <img id="player" onclick="action2();" src="https://www.duasrevival.com/media/surah/Surah_Falaq.png" data-aos="fade-up">
+  <audio id="audio2" src="https://download.quranicaudio.com/quran/abdullaah_3awwaad_al-juhaynee/113.mp3" loop autoloop></audio>
+
+   <img id="player" onclick="action3();" src="https://www.duasrevival.com/media/surah/Surah_Ikhlas.png" data-aos="fade-down">
+  <audio id="audio3" src="https://download.quranicaudio.com/quran/abdullaah_3awwaad_al-juhaynee/112.mp3" loop autoloop></audio>
+
+
+  <img id="player" onclick="action4();" src="https://www.duasrevival.com/media/surah/Surah_Al-Masad.png" data-aos="fade-up">
+  <audio id="audio4" src="https://download.quranicaudio.com/quran/abdullaah_3awwaad_al-juhaynee/111.mp3" loop autoloop></audio>
+
+
+  <img id="player" onclick="action5();" src="https://www.duasrevival.com/media/surah/Surah_An-Nasr.png" data-aos="fade-down">
+  <audio id="audio5" src="https://download.quranicaudio.com/quran/abdullaah_3awwaad_al-juhaynee/110.mp3" loop autoloop></audio>
+
+
+
+  <img id="player" onclick="action6();" src="https://i.pinimg.com/originals/ac/41/64/ac416483fcc3a264a49e6f7090677254.jpg" data-aos="fade-up">
+  <audio id="audio6" src="https://download.quranicaudio.com/quran/abdullaah_3awwaad_al-juhaynee/109.mp3" loop autoloop></audio>
+
+
+
+  <img id="player" onclick="action7();" src="https://www.duasrevival.com/media/surah/Surah_Al-Maun.png" data-aos="fade-down">
+  <audio id="audio7" src="https://download.quranicaudio.com/quran/abdullaah_3awwaad_al-juhaynee/107.mp3" loop autoloop></audio>
+
+
+
+  <img id="player" onclick="action8();" src="https://www.duasrevival.com/media/surah/Surah_Al-Maun.png" data-aos="fade-up">
+  <audio id="audio8" src="https://download.quranicaudio.com/quran/abdullaah_3awwaad_al-juhaynee/107.mp3" loop autoloop></audio>
+
+ 
+
+
+
+ 
+</section>
+</div>
+
+
+   <script>
+  var playing = false;
+
+  function action() {
+    var audio = document.getElementById("audio");
+    if (playing === false) {
+      audio.play();
+      playing = true;
+    } else {
+      audio.pause();
+      playing = false;
+    }
+  }
+
+  function action1() {
+    var audio = document.getElementById("audio1");
+    if (playing === false) {
+      audio.play();
+      playing = true;
+    } else {
+      audio.pause();
+      playing = false;
+    }
+  }
+
+   function action2() {
+    var audio = document.getElementById("audio2");
+    if (playing === false) {
+      audio.play();
+      playing = true;
+    } else {
+      audio.pause();
+      playing = false;
+    }
+  }
+
+
+   function action3() {
+    var audio = document.getElementById("audio3");
+    if (playing === false) {
+      audio.play();
+      playing = true;
+    } else {
+      audio.pause();
+      playing = false;
+    }
+  }
+
+    function action4() {
+    var audio = document.getElementById("audio4");
+    if (playing === false) {
+      audio.play();
+      playing = true;
+    } else {
+      audio.pause();
+      playing = false;
+    }
+  }
+
+    function action5() {
+    var audio = document.getElementById("audio5");
+    if (playing === false) {
+      audio.play();
+      playing = true;
+    } else {
+      audio.pause();
+      playing = false;
+    }
+  }
+
+    function action6() {
+    var audio = document.getElementById("audio6");
+    if (playing === false) {
+      audio.play();
+      playing = true;
+    } else {
+      audio.pause();
+      playing = false;
+    }
+  }
+
+    function action7() {
+    var audio = document.getElementById("audio7");
+    if (playing === false) {
+      audio.play();
+      playing = true;
+    } else {
+      audio.pause();
+      playing = false;
+    }
+  }
+
+    function action8() {
+    var audio = document.getElementById("audio8");
+    if (playing === false) {
+      audio.play();
+      playing = true;
+    } else {
+      audio.pause();
+      playing = false;
+    }
+  }
+
+</script>
+
+ <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+       <script>
+        AOS.init({
+          offset:200,
+        });
+      </script>
+
+</body>
+</html>
